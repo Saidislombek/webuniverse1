@@ -1,0 +1,12 @@
+5fcf80 - цвет по шаблону (main color)
+3498db - main color 
+347cdb - hover color
+
+
+—сылка н цвета 
+
+https://www.colorhexa.com/347cdb
+
+—сылки на иконки 
+
+https://icomoon.io/app/#/select/font
