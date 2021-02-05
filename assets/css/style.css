@@ -6,6 +6,10 @@ body {
   color: #444444;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
 /*a:focus {
     outline-style: none;
     outline-width: 0px !important;
@@ -313,6 +317,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
+  padding: 0;
+  margin: 0;
   position: fixed;
   top: 15px;
   right: 10px;
