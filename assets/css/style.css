@@ -17,7 +17,7 @@ body {
 }*/
 
 a:hover {
-  color: #86db9f;
+  color: #3498db;
   text-decoration: none;
 }
 
@@ -154,6 +154,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .nav-menu > ul {
@@ -320,12 +323,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
   position: fixed;
-  top: 15px;
-  right: 10px;
+  top: 16px;
+  right: 14px;
   z-index: 9998;
   border: 0;
   background: none;
-  font-size: 35px;
+  font-size: 38px;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
@@ -457,7 +460,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-   -webkit-user-select: none; /* Safari */
+  -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
   margin: 0;
@@ -472,6 +475,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 /* Custom hover  effect for buttons  */
@@ -555,6 +561,9 @@ section {
 }
 
 .section-title h2 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   font-size: 14px;
   font-weight: 500;
   padding: 0;
@@ -576,6 +585,9 @@ section {
 }
 
 .section-title p {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   margin: 0;
   margin: 0;
   font-size: 36px;
@@ -600,11 +612,17 @@ section {
 }
 
 .breadcrumbs h2 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   font-size: 32px;
   font-weight: 500;
 }
 
 .breadcrumbs p {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -656,11 +674,17 @@ section {
 }
 
 .courses .icon-box h4 a {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   color: #124265;
   transition: ease-in-out 0.3s;
 }
 
 .courses .icon-box p {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
@@ -795,6 +819,9 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing .box {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -806,6 +833,9 @@ section {
 
 
 .pricing h3 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   font-weight: 400;
   margin: -20px -20px 20px -20px;
   padding: 20px 15px;
@@ -816,6 +846,9 @@ section {
 }
 
 .pricing h4 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   font-size: 36px;
   color: #3498db;
   font-weight: 600;
@@ -824,18 +857,27 @@ section {
 }
 
 .pricing h4 sup {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   font-size: 20px;
   top: -15px;
   left: -3px;
 }
 
 .pricing h4 span {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   color: #bababa;
   font-size: 16px;
   font-weight: 300;
 }
 
 .pricing ul {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   padding: 0;
   list-style: none;
   color: #444444;
@@ -849,6 +891,9 @@ section {
 }
 
 .pricing ul i {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   color: #3498db;
   font-size: 18px;
   padding-right: 4px;
@@ -917,6 +962,9 @@ section {
 }
 
 .contact .info h4 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
@@ -925,6 +973,9 @@ section {
 }
 
 .contact .info p {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 15px;
@@ -1040,6 +1091,9 @@ section {
 # Thank you page
 --------------------------------------------------------------*/
 .contact1  h4 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   /*padding: 0 0 0 60px;*/
   font-size: 22px;
   font-weight: 600;
@@ -1069,6 +1123,9 @@ section {
 }
 
 #footer .footer-top .footer-contact h4 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   font-size: 22px;
   margin: 0 0 30px 0;
   padding: 2px 0 2px 0;
@@ -1077,16 +1134,34 @@ section {
 }
 
 #footer .footer-top .footer-contact p {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   font-size: 17px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Open Sans", sans-serif;
   color: #777777;
 }
+
+#footer .footer-top .footer-contact a {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  color: #777777;
+}
+
+#footer .footer-top .footer-contact a:hover {
+  color: #347cdb;
+}
+
 /*#footer .footer-top h3{
    color: #444444;
 }*/
 #footer .footer-top h4 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   font-size: 16px;
   font-weight: bold;
   color: #444444;
@@ -1138,6 +1213,9 @@ section {
 }
 
 #footer .footer-newsletter h4 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   font-size: 16px;
   font-weight: bold;
   color: #444444;
@@ -1145,42 +1223,6 @@ section {
   padding-bottom: 12px;
 }
 
-/*#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  text-align: left;
-  border: 1px solid #e0e5e2;
-}*/
-
-/*#footer .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
-
-#footer .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: -1px;
-  right: -1px;
-  bottom: -1px;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px 2px 20px;
-  background: #347cdb;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#footer .footer-newsletter form input[type="submit"]:hover {
-  background: #3ac162;
-}
-*/
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
@@ -1196,6 +1238,9 @@ section {
 }
 
 #footer .social-links a {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   font-size: 18px;
   display: inline-block;
   background: #3498db;
