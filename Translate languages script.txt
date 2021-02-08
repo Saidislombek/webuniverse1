@@ -1,0 +1,18 @@
+<button class="uz">O'z</button>
+<button class="ru">Ру</button>
+<div data-ru="Привет" data-uz="Salom">salom</div>
+<div data-ru="Пока" data-uz="Hayr">hayr</div>
+<div data-ru="Как дела?" data-uz="Qalesiz?">Qalesiz?</div>
+
+$('.ru').on('click', function() {
+	$('[data-ru]').each(function() {
+  	$(this).text($(this).attr('data-ru'));
+  }); 
+});
+
+$('.uz').on('click', function() {
+	$('[data-uz]').each(function() {
+  	$(this).text($(this).attr('data-uz'));
+  }); 
+});
+

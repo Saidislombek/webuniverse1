@@ -268,8 +268,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: #fff;
   padding: 8px 0;
-  height: 36px;
-  width: 36px;
+  font-size: 20px;
+  height: 42px;
+  width: 42px;
   display: inline-block;
   line-height: 1px;
   transition: 0.4s;
@@ -667,19 +668,17 @@ section {
 }
 
 .courses .icon-box h4 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
   font-family: "Poppins", sans-serif;
-}
-
-.courses .icon-box h4 a {
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
   color: #124265;
   transition: ease-in-out 0.3s;
 }
+
 
 .courses .icon-box p {
   -webkit-user-select: none; /* Safari */
@@ -1148,7 +1147,7 @@ section {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
-  color: #777777;
+  /*color: #777777;*/
 }
 
 #footer .footer-top .footer-contact a:hover {
